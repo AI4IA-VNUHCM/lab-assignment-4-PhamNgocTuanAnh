@@ -17,9 +17,8 @@ ______________________________________
 
 void Ex1(int n){
 	//Your codes here
-   int num,row,i;
-   scanf("%d",&num);
-   for(row=1; row<=num+1; row++){
+int row,i;
+   for(row=1; row<=n+1; row++){
       int a=1;
       for(i=1; i<=row; i++){
          printf("%d ",a);
@@ -28,7 +27,6 @@ void Ex1(int n){
       printf("\n");
    }
 }
-
 int main(int argc, char *argv[]) {
 	//testing variable, applying it to your algorithm for auto-evaluating
 	int testcase = atoi(argv[1]);
